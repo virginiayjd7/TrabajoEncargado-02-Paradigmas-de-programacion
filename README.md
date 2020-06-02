@@ -1,2 +1,2 @@
-# Trabajo-Encargado-02---Paradigmas-de-programaci-n
+# TrabajoEncargadoN02Paradigmas-de-programacion
 Calidad y Pruebas de Software
