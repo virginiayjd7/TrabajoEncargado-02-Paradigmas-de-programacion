@@ -1,2 +1,2 @@
-# TrabajoEncargadoN02Paradigmas-de-programacion
-Calidad y Pruebas de Software
+# Trabajo-Encargado-N-05-Modelo-Dimensional-vs-Modelo-Tabular
+Inteligencia de Negocios
