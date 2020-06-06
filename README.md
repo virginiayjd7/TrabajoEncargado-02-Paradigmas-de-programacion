@@ -1,2 +1,1 @@
-# Trabajo-Encargado-N-05-Modelo-Dimensional-vs-Modelo-Tabular
-Inteligencia de Negocios
+# Trabajo_Encargado_01-_BI_vs-_BA
