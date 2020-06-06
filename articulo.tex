@@ -1,0 +1,136 @@
+\documentclass[twoside,twocolumn]{article}
+
+\usepackage{blindtext} % Package to generate dummy text throughout this template 
+\usepackage{graphicx}
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[english]{babel} % Language hyphenation and typographical rules
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+
+\usepackage{enumitem} % Customized lists
+\setlist[itemize]{noitemsep} % Make itemize lists more compact
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\roman{subsection}} % roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{El Aseguramiento de la Calidad de Software  $\bullet$ Mayo 2019 $\bullet$ } % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\usepackage{titling} % Customizing the title section
+
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\setlength{\droptitle}{-4\baselineskip} % Move the title up
+
+\pretitle{\begin{center}\Huge\bfseries} % Article title formatting
+\posttitle{\end{center}} % Article title closing formatting
+\title{ PSP y TSP} % Article title
+\author{Yaneth Aquino,,Bianca Chura ,Adnner Esperilla y jhhh}
+\date{\today} % Leave empty to omit a date
+\renewcommand{\maketitlehookd}{%
+\begin{abstract}
+\noindent Este artículo, presenta un enfoque práctico como guía estratégica, para administrar la calidad en el desarrollo de un proyecto de software. Para esto, se presenta dos metodologias  PSP y TSP.La Esencia, que busca que todo el equipo de trabajo entienda el concepto de calidad; que no solo se ve reflejado en actividades o tareas, sino también en la forma cómo trabaja el equipo. Herramientas, que tienen como finalidad controlar la calidad en el proyecto de software.
+\end{abstract}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+% Print the title
+\maketitle
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Introduccion}
+
+\lettrine[nindent=0em,lines=3]{L}a calidad es importante en el desarrollo de un producto o servicio y, más aún, en la creación de un producto de software, no solo porque busca cumplir con las expectativas del cliente, sino también por mejorar los procesos internos en la elaboración de un producto, tarea fundamental en el crecimiento y posicionamiento de una empresa.
+La calidad en ingeniería del software es el cumplimiento de los requerimientos contractuales por parte del producto software desarrollado, así como durante el proceso de desarrollo. La calidad se obtiene mejorando día a día el proceso de producción, mantenimiento y gestión del software.
+ Para optimizar la calidad de los productos y/o servicios es preciso conocer al cliente y sus necesidades, conocer la competencia y poseer un modelo de calidad ,lo cual permitirá incrementar la fiabilidad, reducir el mantenimiento, aumentar la satisfacción del cliente, mejorar la dirección del proyecto, detectar errores lo más temprano posible e incrementar el beneficio para el desarrollador. 
+
+%------------------------------------------------
+\section{Objetivos}
+\begin{itemize}
+\item Establecer diferencias en las  metodologias de aseguramiento a la calidad de software.
+
+\end{itemize}
+%------------------------------------------------
+
+\section{Desarrollo}
+
+\subsection{¿Que es  PSP  ?}
+Es un proceso de auto-mejoramiento que ayuda a controlar, gestionar y mejorar la forma de trabajar. Se trata de un marco estructurado de formas, pautas y procedimientos para el desarrollo de software. 
+Usar PSP correctamente, proporciona los datos que se necesita para realizar y cumplir con los compromisos, y hacer que los elementos de rutina del trabajo sean más predecibles y eficientes. 
+
+\subsection{¿Que es TSP ?}
+Es un proceso de desarrollo que enfatiza en calidad y métricas. Un proyecto de software de TSP se desarrolla a través de una serie de ciclos de desarrollo, donde cada ciclo comienza con un proceso de planificación llamado lanzamiento y termina con un proceso de cierre llamado postmortem. El uso de TSP en los proyectos de desarrollo software permite que los proyectos sean entregados a tiempo, dentro del presupuesto y con calidad.
+
+\subsection{Diferencia entre PSP y TSP}
+\begin{itemize}
+\item PSP
+\item Su bjetivo:
+\\Maximizar calidad del software, lograr una disciplina de mejora continua en el proceso de desarrollo, mejorar la calidad del proceso de desarrollo e incrementar la productividad.
+\\ \textbf{- Tiene como premisa de que la calidad de software depende del trabajo de cada uno de los ingenieros de software y de aquí que el proceso diseñado debe ayudar a controlar, manejar y mejorar el trabajo de los ingenieros.}
+\\ \textbf{- ayuda al ingeniero a estimar y planificar su trabajo, lograr sus compromisos y responder de la mejor manera ante un trabajo bajo presión.}
+\\ \textbf{- Integra un conjunto de formularios, que también son usados por PSP para recoger las métricas necesarias las cuales son tres métricas básicas que establece PSP tales como tamaño tiempo y defectos y las demás son medidas derivadas de estas métricas básicas. }
+
+\item TSP
+\item Su Objetivo:
+\\Maximizar la calidad Software, integrar equipos independientes de alto rendimiento que planifiquen, registren su trabajo, establezcan metas, monitorear y motivar a sus equipos de trabajo, acelerar la mejora continua de procesos y proveer de una guía para el mejoramiento en organizaciones maduras.
+\\ \textbf{- Ayuda a planificar y gestionar el equipo de un proyecto software y está basado en cuatro principios básicos:}
+\\ \textbf{-  aprender es más efectivo cuando sigues un proceso definido.}
+\\ \textbf{- El trabajo en equipo requiere de una combinación de metas específicas, un ambiente de trabajo de apoyo, liderazgo y entrenamiento y capaces.}
+\\ \textbf{- Aprecia los beneficios de las prácticas de desarrollo }
+\\ \textbf{- La formación es más eficaz cuando se dispone de conocimiento previo}
+\\ \textbf{- Mejora la estimación de tamaño y esfuerzo que son métricas fundamentales en el proyecto software. Asimismo, se reducen los defectos encontrados en las diferentes fases del ciclo de vida del proyecto software}
+\\ \textbf{- Cuando se utiliza TSP los programadores y diseñadores tienen la intención de monitorear lo que están haciendo, identificar sus debilidades y mejorar ellos mismos. }
+\end{itemize}
+
+
+\section{Conclusiones}
+Existen una gran variedad  de diversas propuestas de metodologías como PSP, TSP y modelos como CMMI ,entre otros ,orientadas a obtener productos de calidad, pero estas no están integradas a las buenas prácticas, procedimientos, formularios con el propósito de obtener productos de calidad.
+
+
+%---------------------------------------------------------------------------------------- 
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+Altwies, D. & Preston, J. (2016). Achieve PMP® Exam Success, 5th Edition, J. Ross Publishing        [ Links ]
+Bayona, S., Calvo Manzano, J., Gonzalo, C., & San Feliu, T. (2008). Teaching Team Software Process in Graduate Courses to Increase Productivity and Improve Software Quality. 32nd Annual IEEE International Computer Software and Applications Conference (pp. 440–446). Turku: Ieee. doi:10.1109/COMPSAC.2008.135        [ Links ]
+Wesslén, A. (2000). A replicated empirical study of the impact of the methods in the PSP on individual engineers. Empirical Software Engineering 5 (2) pp. 93– 123        [ Links ]
+Zhang, L (2010). Software Process Improvement for Small Organizations Based on CMMI/TSP/PSP. Recuperado de 
+ 
+\newblock Contenedor de aplicaciones: Docker (2015)
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
