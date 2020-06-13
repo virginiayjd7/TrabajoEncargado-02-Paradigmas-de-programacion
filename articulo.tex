@@ -83,22 +83,39 @@ con una sintaxis súper limpia que hace que la programación sea elegante y dive
 elegancia conceptual, la facilidad de uso y aprendizaje de Python, y el pragmatismo de Perl. Ruby ha comenzado a convertirse en
 popular en todo el mundo.Ruby soporta múltiples paradigmas de programación,incluyendo {\bf \underline {funcionales, orientados a objetos,}}
 {\bf \underline {imperativos,y reflexivo.}}También cuenta con un sistema de tipo dinámico y gestión automática de la memoria.
-En  Ruby,  Rubocop,  Rubicritic,  Bullet  son  algunas  que  pueden  salvarnos  el  día  y ayudarnos a optimizar nuestro código. Pero lo que hacen estas herramientas no es magia
+En  Ruby,  Rubocop,  Rubicritic,  Bullet  son  algunas  que  pueden  salvarnos  el  día  y ayudarnos a optimizar nuestro código.
 \begin{center}
-	\includegraphics[width=7cm]{./Imagenes/2} 
+	\includegraphics[width=7cm]{./Imagenes/ruby} 
 	\end{center}
-	
+\subsection {RubyCritic}
+\begin{itemize}
+Es una herramienta para el análisis estático del código ruby ,envuelve gemas de análisis estático como Reek , Flay y Flog para proporcionar un informe de calidad de su código Ruby.
+Cada una de estas gemas está internamente envuelta como un analizador , con una colección de AnalysedModule s, que nos dan cálculos de métricas clave.
+\end{itemize}
 \subsection {Métricas principales Ruby}
 \begin{itemize}
-\item rotación 
-\item la complejidad 
-\itemel costo 
-\item la calificación .
+\item la rotación
+\item la complejidad
+\item el costo 
+\item calificación
+\end{itemize}
+\subsection {El resultado de RubyCritic le dará cuatro valores para ayudarlo a juzgar su código}
+ 
+\begin{itemize}
 \item  Ejemplo:para proporcionar un informe de calidad de su código Ruby
 \\ \textbf{ Puntuación : un número genérico que representa la calidad general del código analizado }
+\\ \ Esto es básicamente un promedio del costo calculado de cada archivo.
 \\ \textbf{ Churn : número de veces que se cambió un archivo}
+\\ \ Churn es muy simple de calcular: es la cantidad de veces que se confirmó el archivo.
+\begin{center}
+	\includegraphics[width=7cm]{./Imagenes/5} 
+	\end{center}
 \\ \textbf{ Complejidad : cantidad de dolor en su código}
+\begin{center}
+	\includegraphics[width=7cm]{./Imagenes/6} 
+	\end{center}
 \\ \textbf{ Calificación : la calificación asignada a un archivo}
+\\ \ La calificación es simplemente una conversión del costo calculado a una letra.
 \begin{center}
 	\includegraphics[width=7cm]{./Imagenes/rating} 
 	\end{center}
