@@ -47,18 +47,14 @@
 
 \pretitle{\begin{center}\Huge\bfseries} % Article title formatting
 \posttitle{\end{center}} % Article title closing formatting
-\title{ Cobol vs Ruby} % Article title
+\title{ Comparativa de Paradigmas de programación utilizando metricas de calidad} % Article title
 \author{Yaneth Aquino,Bianca Chura ,Adnner Esperilla y Johanna Torres}
 \date{\today} % Leave empty to omit a date
 \renewcommand{\maketitlehookd}{%
 \begin{abstract}
-\noindent La comparación de lenguajes de programación es un tema común de discusión entre los ingenieros de software.
-Pocos lenguajes son lo suficientemente populares como para que sean utilizados por más de unas pocas personas o que encuentren su nicho en la investigación o la educación;Pero los programadores profesionales pueden utilizar fácilmente docenas de idiomas diferentes durante su carrera.Se implementan cada año con el fin de mantenerse al día con la programación cambiante
-paradigmas, evolución del hardware, etc.
+\noindent La  calidad  es  un  concepto  relativo  y  multidimensional,  referido  a  las  expectativas  y  cualidades solicitados por el cliente, a su vez, está ligada a restricciones y compromisos (presupuesto y tiempo de  desarrollo,  entre  otros).  Sin  embargo,  existe  algo  que  nadie  puede  negar,  cuando  algo  es  de calidad  suele  pasar  desapercibido,  pero,  por  el  contrario,  la  mala  calidad  es  algo  que destaca negativamente.
 \end{abstract}
-
 }
-
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -72,101 +68,26 @@ paradigmas, evolución del hardware, etc.
 
 \section{Introduccion}
 
-\lettrine[nindent=0em,lines=3]{L}os primeros lenguajes de programación de alto nivel fueron diseñados durante la década de 1950. 
-se han creado lenguajes de progrmacion, principalmente en el campo de la informática, y cada año se han creado muchos más; son
+\lettrine[nindent=0em,lines=3]{P}ara  producir  software  de  calidad  y  cumplir  con  la  expectativas  de  nuestros  usuarios es que existen diferentes métricas de calidad de software. Métricas de calidad de software es un conjunto de medidas utilizadas para estimar la calidad de un proyecto   a   desarrollar,   entre   otros   conceptos,   y   que   permiten   comparar   o   planificar   estas aplicaciones. son
 diseñados, especificados e implementados con el propósito de estar al día con la evolución de la programación
 paradigmas (por ejemplo, imperativos, orientados a objetos, orientados a aspectos, reflexivos y funcionales, por nombrar algunos).
-Mientras que algunos lenguajes de programación gozan de popularidad en todo el mundo y se utilizan comúnmente para desarrollar grandes,
-aplicaciones de nivel empresarial (por ejemplo, C, C++, C, Java, PHP o Perl); otros sólo son utilizados por un número menor de
-personas o están más orientados a la academia para la investigación y la educación (por ejemplo, OCaml, Haskell, Scheme, OZ, o
-Scala).
 %------------------------------------------------
-\section{Objetivos}
-\begin{itemize}
-\item Establecer diferencias entre Cobol y ruby ,en las paradigmas de programacion.
-\end{itemize}
 %------------------------------------------------
 \section{Desarrollo}
-\subsection{COBOL}
-\begin{itemize}
-\item Es uno de los lenguajes de programación más antiguos. Ha dominado la aplicación de software desarrollo durante décadas y sigue siendo uno de los lenguajes de programación utilizados hoy en día en el software de negocios.COBOL presenta diferentes ventajas como
-{\bf \underline{simplicidad,portabilidad y mantenimiento}}
-, también COBOL se considera muy poderoso en el procesamiento de datos masivos para las empresas Aplicaciones. COBOL ha sufrido varias mejoras con el fin de ponerse al día con las nuevas tendencias de programación. La última encarnación de COBOL admite características orientadas a objetos(todavía no hay ningún compilador compatible disponible) y también mantiene la compatibilidad con versiones anteriores.
-\begin{center}
-	\includegraphics[width=5cm]{./Imagenes/3} 
-	\end{center}
+
 \subsection{Ruby}
-\end{itemize}
 Ruby es un lenguaje de programación dinámico,{\bf \underline {reflexivo y orientado a objetos}}  de propósito general que combina sintaxis
 inspirado por Perl con características similares a Smalltalk. Ruby se originó en Japón a mediados de la década de 1990 y fue
 desarrollado y diseñado por Yukihiro "Matz" Matsumoto. Ruby es un lenguaje de programación puro orientado a objetos
 con una sintaxis súper limpia que hace que la programación sea elegante y divertida. Ruby combina con éxito Smalltalk's
 elegancia conceptual, la facilidad de uso y aprendizaje de Python, y el pragmatismo de Perl. Ruby ha comenzado a convertirse en
 popular en todo el mundo.Ruby soporta múltiples paradigmas de programación,incluyendo {\bf \underline {funcionales, orientados a objetos,}}
-{\bf \underline {imperativos,y reflexivo.}}También cuenta con un sistema de tipo dinámico y gestión automática de la memoria
+{\bf \underline {imperativos,y reflexivo.}}También cuenta con un sistema de tipo dinámico y gestión automática de la memoria.
+En  Ruby,  Rubocop,  Rubicritic,  Bullet  son  algunas  que  pueden  salvarnos  el  día  y ayudarnos a optimizar nuestro código. Pero lo que hacen estas herramientas no es magia
 \begin{center}
 	\includegraphics[width=7cm]{./Imagenes/2} 
 	\end{center}
-\subsection{Diferencia entre Cobol vs Rubi}
-\begin{itemize}
-\item COBOL
-\\ \textbf{- Es un lenguaje prototípico AspectCOBOL para diseñar una extensión a COBOL para programación orientada a aspectos.}
-\\ \textbf{- COBOL no puede hacer programación funcional.}
-\\ \textbf{- COBOL es principalmente un lenguaje imperativo. }
-\\ \textbf{- Muy conocido en secuencias de comandos por lotes.  (automatizar las tareas llamando a programas externos
-como el controlador de la base de datos).}
-\\ \textbf{- Generalmente los programas COBOL se ejecutan a través de la línea de comandos, pero hay algunas herramientas
-disponibles para crear interfaces gráficas.}
-\item RUBY
-\\ \textbf{- Ruby también cuenta con algunas extensiones:
-AspectR-Fork y Aquarium siendo los más
-popular y generalizada.}
-\\ \textbf{- Los bloques, procs y lambdas de Ruby prestan
-a sí mismos muy bien a una programación funcional
-Estilo.}
-\\ \textbf{ - Ruby carece de dos aspectos importantes para
-programación funcional (coincidencia de patrones y
-evaluación diferida), pero sus instalaciones, como
-bloques, lambdas, y el hecho de que todo
-se evalúa como una expresión que admite un
-estilo de programación funcional
-.}
-\\ \textbf{-  Hay algunas opciones para ejecutar Batch
-puestos de trabajo en Ruby, y también en los ferrocarriles
-Marco de referencia. El módulo
-{\bf \underline {{} ActiveRecord::Batches::ClassMethods }}
-permite procesamiento de un gran número de registros y deportes
-dos métodos principales para hacer scripting por lotes}
-\\ \textbf{- Existen varias bibliotecas para permitir que Ruby
-interacción gráfica del usuario (GUI).
-}
-\begin{center}
-	\includegraphics[width=7cm]{./Imagenes/Diferencias} 
-	\end{center}
-\end{itemize}
-\subsection{Funciones de métricas COBOL}
-\begin{itemize}
-\item Operación repetible en un conjunto específico de archivos
-\item Métricas calculadas a nivel de párrafo, sección, división y archivo:
-\\ \textbf{ Líneas de código fuente (SLOC)}
-\\ \textbf{ Líneas de código fuente no comentadas}
-\\ \textbf{ Líneas de comentarios}
-\\ \textbf{ Numero de metodos}
-\\ \textbf{ Densidad de decisión}
-\\ \textbf{ Complejidad Ciclomática}
-\\ \textbf{ Máxima anidación de bucle}
-\\ \textbf{ Máxima anidación condicional}
-\\ \textbf{ Medidas de Halstead (volumen, dificultad y esfuerzo)
-Índice de Mantenibilidad del Instituto de Ingeniería de Software (SEI)}
-\item Las métricas de anidación en el peor de los casos señaladas a un archivo / línea específicos
-\item Resúmenes por sección / división / archivo
-\item Informe de texto
-\item Informe XML, reformateable en cualquier forma deseada
-\begin{center}
-	\includegraphics[width=7cm]{./Imagenes/cobol} 
-	\end{center}
-
-\end{itemize}
+	
 \subsection {Métricas principales Ruby}
 \begin{itemize}
 \item rotación 
@@ -200,11 +121,10 @@ consideraciones, una buena decisión de lenguaje puede apoyar el desarrollo de s
 
  
 \newblock - Al-Qahtani, S. S., Pietrzynski, P., Guzman, L. F., Arif, R., & Tevoedjre, A. (2010). Comparing selected criteria of programming languages java, php, c++, perl, haskell, aspectj, ruby, cobol, bash scripts and scheme revision 1.0-a team cplgroup comp6411-s10 term report. arXiv preprint arXiv:1008.3434.
-\newblock https://subvisual.com/blog/posts/19-solid-principles-in-ruby/
+\newblock - https://subvisual.com/blog/posts/19-solid-principles-in-ruby/
 \newblock - https://github.com/whitesmith/rubycritic
-\newblock - http://www.semdesigns.com/Products/Metrics/COBOLMetrics.html
 \newblock - HASP. 2008. Tim Chevalier, Darin Morrison, Rebekah Leslie, Tom Harke, John Matthews, Brian Huffman, Andrew McCreight, Mark Jones, Andrew Tolmach, Peter White, James Hook. The High-Assurance Systems Programming.  http://hasp.cs.pdx.edu/overview.html (accessed July 13, 2010)
-\newblock Ruby Programming Language. About Ruby. Available at http://www.ruby-lang.org/en/about/. 
+\newblock - Ruby Programming Language. About Ruby. Available at http://www.ruby-lang.org/en/about/. 
 \newblock - R. Garcia, J. Jarvi, A. Lumsdaine, J. Siek, and J. Willcock. A Comparative Study of Language Support for Generic Programming. Open Systems Lab, Indiana University Bloomington, IA. November 2003
 \newblock 
 \end{thebibliography}
